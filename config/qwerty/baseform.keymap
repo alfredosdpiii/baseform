@@ -37,7 +37,7 @@
             bindings = <
                 ROW4
                 ROW3( &kp Q       &kp W       &kp E        &kp R       &kp T      &kp Y  &kp U        &kp I        &kp O       &kp P )
-                ROW2( &ht LGUI A  &ht LALT S  &ht LCTRL D  &ht LGUI F  &kp G      &kp H  &ht LSHFT J  &ht RCTRL K  &ht RALT L  &ht LGUI SEMI )
+                ROW2( &ht LGUI A  &ht LALT S  &ht LCTRL D  &ht LSHFT F  &kp G      &kp H  &ht LSHFT J  &ht RCTRL K  &ht RALT L  &ht LGUI SEMI )
                 ROW1( &kp Z       &kp X       &kp C        &kp V       &kp B      &kp N  &kp M        &kp COMMA    &kp DOT     &kp APOS )
                                                    &kp TAB  &kp SPACE  &mo NUM  &mo NAV  &kp RET  &kp BSPC
             >;
@@ -61,7 +61,7 @@
                 TRANS_FLANK( &kp ESC        &mmv MOVE_UP     &none            &none      &kp CAPS        &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp BSPC )
                 TRANS_FLANK( &mmv MOVE_LEFT &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &none      &caps_word      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp C_VOL_UP )
                 TRANS_FLANK( &none          &none            &trans           &none      &studio_unlock  &none     &none      &none      &none      &kp C_VOL_DN )
-                                                   &trans    &mkp LCLK        &mkp RCLK   &trans  &trans     &trans
+                                                   &mkp RCLK    &mkp LCLK        &kp TAB    &trans  &trans     &trans
             >;
         };
     };
